@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: symfony-app
-          image: docker.io/dhubau/symfony-demo-app:latest
+          image: docker.io/msathepivotal/symfony-demo-app:latest
           imagePullPolicy: Always
           env:
             - name: PORT
